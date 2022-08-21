@@ -1,6 +1,6 @@
 # Sleipnir
 
-This repo spins up a kind cluster with an nginx ingress controller and an echo service to prove that the ingress controller works.
+This repo spins up a kind cluster with an nginx ingress controller and an emptry grafana service.
 
 To test it:
 * Install kind (see the resources section)
