@@ -14,7 +14,7 @@ kind_deploy:
   	--for=condition=ready pod \
   	--selector=app.kubernetes.io/component=controller \
   	--timeout=300s
-	kubectl apply -f manifests/echo.yaml
+	kubectl apply -f manifests/grafana.yaml
 
 clean:
 	kind delete cluster --name $(CLUSTER_NAME)

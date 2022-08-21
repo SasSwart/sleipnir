@@ -6,7 +6,7 @@ To test it:
 * Install kind (see the resources section)
 * `make kind_cluster`
 * `make kind_deploy`
-* `curl localhost/foo`
+* Open http://localhost/grafana
 
 # Resources:
 * [Kind](https://kind.sigs.k8s.io/)
@@ -19,6 +19,7 @@ To test it:
 * [Nginx ingress controller](https://kubernetes.github.io/ingress-nginx/deploy/)
 * [Kubernetes Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/job/)
 * [Kubernetes Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
+* [Configuring Grafana in Docker](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#override-configuration-with-environment-variables)
 
 # Notes
 * For Kind, be sure to configure your ingress controller using NodePort, instead of a loadbalancer
